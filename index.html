@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="jquery.js"> </script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script>
+    $(document).ready( () => {
+        var move = 1;
+        var turn = true;
+        $("#dashboard tr td").click( () => {
+            console.log("cliquei");
+        })
+    })
+</script>
+<body>
+
+    <table id="dashboard">
+        <tr class="row"> 
+            <td id="c00"></td>
+            <td id="c01"></td>
+            <td id="c02"></td>
+        </tr>
+        <tr class="row"> 
+            <td id="c10"></td>
+            <td id="c11"></td>
+            <td id="c12"></td>
+        </tr>
+        <tr class="row"> 
+            <td id="c20"></td>
+            <td id="c21"></td>
+            <td id="c22"></td>
+        </tr>
+        
+    </table> <br>
+    <h1>JOGO DA VELHA - JLFS </h1>
+
+</body>
+</html>
