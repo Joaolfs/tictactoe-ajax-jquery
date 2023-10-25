@@ -22,7 +22,7 @@ table{
     text-align: center;
 }
 #dashboard tr td:hover{
-    background-color: green;
+    background-color: gray;
     cursor: pointer;
     transition: 0.5s;
 }
